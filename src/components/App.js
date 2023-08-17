@@ -9,7 +9,6 @@ const App = () => {
 
   return (
     <div>
-        {/* Do not remove the main div */}
         <Tabs tabsData = {data} />
     </div>
   )
