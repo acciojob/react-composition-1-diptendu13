@@ -14,7 +14,7 @@ const Tabs = ({tabsData}) => {
                 <li onClick={() => setShowConent(tab2.content)}>{tab2.title}</li>
                 <li onClick={() => setShowConent(tab3.content)}>{tab3.title}</li>
             </ul>
-            <div>{showContent}</div>
+            <div>This is the content for {showContent}</div>
         </div>
     )
 }
